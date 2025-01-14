@@ -60,7 +60,6 @@ open class RSIShareViewController: SLComposeServiceViewController {
                                                          index: index,
                                                          content: content)
                                     }
-                                    
                                     else if let url = data as? URL {
                                         this.handleMedia(forLiteral: url.absoluteString,
                                                          type: .url,
